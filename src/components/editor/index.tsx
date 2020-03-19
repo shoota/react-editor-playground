@@ -22,9 +22,12 @@ const SimpleImage = require('@editorjs/simple-image')
 const Embed = require('@editorjs/embed')
 
 export const tools = {
+  paragraph: {
+    class: Paragraph,
+    inlineToolbar: true,
+  },
   embed: Embed,
   table: Table,
-  paragraph: Paragraph,
   list: List,
   warning: Warning,
   code: Code,
